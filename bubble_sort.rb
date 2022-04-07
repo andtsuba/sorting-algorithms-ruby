@@ -18,4 +18,5 @@ def bubble_sort(array)
   array
 end
 
-p bubble_sort([2, 54, 2, 534])
+unsorted_array = [2, 54, 2, 534, 54, 32, 0]
+p bubble_sort(unsorted_array)
